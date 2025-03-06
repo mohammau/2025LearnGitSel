@@ -24,7 +24,8 @@ public class TestFour extends Base {
 	public void Fourt() throws IOException, InterruptedException{
 		
 	  System.out.println("Test Four printed");	
-	  
+	  System.out.println("New changes made in github to pull to local");	
+
 	 driver =  initializeDriver();
 	 
 	 driver.get(prop.getProperty("URL"));
